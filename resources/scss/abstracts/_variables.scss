@@ -1,0 +1,23 @@
+// COLORS
+$color-primary: #555;
+$color-grey: #ddd;
+$color-grey-light: #eee;
+$color-grey-dark: #707070;
+$color-grey-dark-1: #a7a7a7;
+$color-red: #d24a43;
+$color-white: #fff;
+
+
+// FONT
+$font-primary: 'Open Sans', sans-serif;
+
+// GRID SETUPS
+$grid-desktop: [full-start] 2.625fr [center-start] repeat(12, [col-start] 1fr [col-end]) [center-end] 2.625fr [full-end];
+$grid-mobile: [full-start] .1fr [center-start] repeat(12, [col-start] 1fr [col-end]) [center-end] .1fr [full-end];
+
+// BREAKPOINTS
+$bp-huge: 76.875em;
+$bp-big: 52.5em;
+$bp-medium: 42.5em;
+$bp-small: 37.5em;
+$bp-tiny: 28.125em;

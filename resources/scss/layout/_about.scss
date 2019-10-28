@@ -1,0 +1,48 @@
+.about {
+    margin: 6rem 0;
+    justify-items: center;
+    font-size: 1.6rem;
+
+    &__heading {
+        position: relative;
+
+        &::after {
+            content: '';
+            width: 7rem;
+            height: .3rem;
+            background-color: $color-red;
+            position: absolute;
+            top: 5rem;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    &__description {
+        margin: 4rem 0 4rem 0;
+        width: 40%;
+        text-align: center;
+
+        & > *:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+
+        @media only screen and (max-width: $bp-huge) {
+            width: 60%;
+        }
+
+        @media only screen and (max-width: $bp-big) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 90%;
+        }
+    }
+
+    &__text--red {
+        color: $color-red;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,28 @@
+.timetable {
+    justify-items: center;
+    margin-bottom: 6rem;
+
+    &__schedule {
+        border-collapse: collapse;
+        margin-top: 3rem;
+    }
+
+    &__row {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &:nth-child(odd) {
+            background-color: $color-grey-light;
+        }
+    }
+
+    &__data {
+        border: none;
+        padding: 1rem 4rem;
+    }
+
+    &__data:first-child {
+        padding-right: 4rem;
+    }
+}
